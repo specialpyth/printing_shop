@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+*.log
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Среда разработки
+.env
+*.env
+
+# Статика и медиафайлы
+staticfiles/
+media/
+
+# Миграции
+*/migrations/*
+
+# Пакеты и зависимости
+*.egg-info/
+dist/
+build/
